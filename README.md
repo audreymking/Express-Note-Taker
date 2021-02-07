@@ -18,7 +18,7 @@ This application was created for a user to enter in their notes, save them, and 
 
 ## Installation:
 
-* Click on the Heroku Link HERE to try out the application.
+* Click on the Heroku Link [HERE](https://quiet-sea-07935.herokuapp.com/) to try out the application.
 
 If you would like to work with the backend of the application:
 
