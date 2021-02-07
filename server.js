@@ -7,7 +7,7 @@ const path = require("path");
 const app = express();
 
 //specify channel to listen too
-const PORT = process.env.PORT || 4020;
+const PORT = process.env.PORT || 8000;
 
 //configure body parsers
 app.use(express.urlencoded({ extended: true }));
