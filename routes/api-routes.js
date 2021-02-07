@@ -50,7 +50,7 @@ router.get("/api/notes", (req, res) => {
 router.post("/api/notes", (req, res) => {
   addNote(req.body).then((notes) => {
     res.json(notes);
-    console.log("Saving note to db " + req.body.id);
+    console.log("Saving note to database with the id of: " + req.body.id);
   });
 });
 
@@ -58,7 +58,7 @@ router.post("/api/notes", (req, res) => {
 router.delete("/api/notes/:id", (req, res) => {
   destroyNote(req.params.id).then((notes) => {
     res.json(notes);
-    console.log("Deleting note with id " + req.params.id);
+    console.log("Deleting note from the database with the id of " + req.params.id);
   });
 });
 
